@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "R10 JOBS PLUGIN",
+  "description": "Bu uygulama size her 20 dakikada bir r10.net'ten günün ilanlarını masaüstü bildirimi olarak gösterir.",
+
+  "version": "1.0",
+  "icons": {
+    "64": "yo.png"
+  },
+  "permissions" :[
+    "notifications",
+    "http://localhost/*",
+    "http://www.r10.net/is-verenler/"
+
+  ],
+  "background": {
+    "page":"index.html"
+
+  }
+
+
+}
+
+
+
